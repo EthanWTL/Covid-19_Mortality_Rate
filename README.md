@@ -9,9 +9,11 @@
 
 Welcome! 😀
 
-We are dedicated data scientists working with [Pakula BioMedical Fellowship Program](https://www.beloit.edu/academics/biology/resources-opportunities/summer-research/) for summer research! 
+We working on the COVID-19 dataset provided from [this source](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) provided by Mexico Government.
 
-It has a focus on implementing Federated Learning on [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) to help early stage detection of cardiovasular diseases.
+We transformed the dataset into a focus on who went into ICU eventually among the patients got hospitalized. We believe that our approach can help with determine if certain patients need more medical treatment before they need to send in ICU. 
+
+
 
 ---
 
