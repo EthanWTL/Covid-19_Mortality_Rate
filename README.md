@@ -33,18 +33,11 @@ To create a baseline understanding of the project as well as testing our data cl
 | Random Forest  | |   |
 | SVM |  |   |
 | Bayesian Classifier  |  |   |
+| SOM |  |  |
+| DNN | |   | 
+| CNN | | | 
+| RNN |  |  | 
 
-
-The table below presents the comprehensive results for our baseline models.
-|  | Combined  | Cleveland | Long Beach | Hungary | Switzerland |
-| --- | --- | --- | --- | --- | --- | 
-| Decision Tree | 80% | 79%  | 68% |85%| 89%|
-| Random Forest | 85% | 84%  | 83% |91%| 92%|
-| SVM | 86% | 86% | 82% |84%| 95%|
-| Bayesian Classifier | 83% | 82%  | 80% |43%| 57%|
-| ANN | 85% | 84%  | 82% |85%| 95%|
-| CNN | 85% | 79%  | 82% |87%| 95%|
-| RNN | 80% | 79%  | 77% |85%| 92%|
 
 
 
@@ -61,20 +54,20 @@ The table below presents the comprehensive results for our baseline models.
 ### Our FL pipeline:
 ```mermaid
 graph TB
-    A{Global Model} <-- weights_transfer --> B[Cleveland_model]
-    A{Global Model} <-- weights_transfer --> C[Virginia_model]
-    A{Global Model} <-- weights_transfer --> D[Hungarian_model]
-    A{Global Model} <-- weights_transfer --> E[Switzerland_model]
+    A{Global Model} <-- weights_transfer --> B[Model_1]
+    A{Global Model} <-- weights_transfer --> C[Model_2]
+    A{Global Model} <-- weights_transfer --> D[Model_3]
+    A{Global Model} <-- weights_transfer --> E[Model_4]
 
-    B -- training --> F((Cleveland_data))
-    C -- training --> G((Virginia_data))
-    D -- training --> H((Hungarian_data))
-    E -- training --> I((Switerland_data))
+    B -- training --> F((DataShard_1))
+    C -- training --> G((DataShard_2))
+    D -- training --> H((DataShard_3))
+    E -- training --> I((DataShard_4))
 
-    F -- update_model --> J(Cleveland_model_updated)
-    G -- update_model --> K(Virginia_model_updated)
-    H -- update_model --> L(Hungarian_model_updated)
-    I -- update_model --> M(Switzerland_model_updated)
+    F -- update_model --> J(Model_1_updated)
+    G -- update_model --> K(Model_2_updated)
+    H -- update_model --> L(Model_3_updated)
+    I -- update_model --> M(Model_4_updated)
 
 ```
 ### Results:
@@ -83,37 +76,23 @@ graph TB
 * ```Loss function```: Sparse Cross Entropy
 * Result after 100 ```global epochs```:
 
-  |Model| Combined  | Cleveland | Long Beach | Hungary | Switzerland |
+  |Model Accuracy| Centralized  | Shard1 | Shard2 | Shard3 | Shard4 |
   |--------|--------|--------|--------|--------|--------|
-  |ANN-FL|84%|82%|80%|85%|92%|
-  |CNN-FL|85%|87%|78%|87%|89%|
-  |RNN-FL|83%|79%|80%|85%|95%|
+  |DNN-FL||||||
+  |CNN-FL||||||
+  |RNN-FL||||||
 
-
+  |Recall on Actual ICU or Dead| Centralized | Shard1 | Shard2 | Shard3 | Shard4 |
+  |--------|--------|--------|--------|--------|--------|
+  |DNN-FL||||||
+  |CNN-FL||||||
+  |RNN-FL||||||
+  
 ---
 
 
 
 ## Analysis & Comparison
-
-![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/177720dd-3293-4bbd-91c7-f37804695174)
-
-
-![image](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/078ee836-76f1-4ff5-b4b3-d21e1c072209)
-
-
-![ROC curves FL](https://github.com/EthanWTL/HeartDiseasePakula/assets/97998419/98d2ceb8-bbfe-4770-953b-f77964fa77e6)
-
-
-## Roadmap
-- [x] Implement Baseline experiment
-- [x] Federated Learning
-  - [x] MLP
-  - [x] CNN
-  - [x] RNN
-- [ ] Tranfer Learning
-
-
 
 
 
