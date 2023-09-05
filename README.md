@@ -9,14 +9,18 @@
 
 Welcome! 😀
 
-We working on the COVID-19 dataset provided from [this source](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) provided by Mexico Government.
+This work focused on the COVID-19 dataset provided by [this source](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) provided by Mexico Government.
 
 We managed to determine who would need more medical treatment among the hospitalized patients before they ended up in the ICU, by using who eventually went to the ICU or died as the classification criteria and other diseases and body condition as features.
 
 ---
 ## Stage 0: Data Exploration and Data Preprocessing
 
+1. Original data features:
 
+2. the feature now:
+
+3. what we did in between and why.
 
 
 ## Stage I: Baseline Modeling
