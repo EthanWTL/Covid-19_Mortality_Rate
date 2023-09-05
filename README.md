@@ -11,12 +11,10 @@ Welcome! 😀
 
 We working on the COVID-19 dataset provided from [this source](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) provided by Mexico Government.
 
-We transformed the dataset into a focus on who went into ICU eventually among the patients got hospitalized. We believe that our approach can help with determine if certain patients need more medical treatment before they need to send in ICU. 
-
-
+We managed to determine who would need more medical treatment among the hospitalized patients before they ended up in the ICU, by using who eventually went to the ICU or died as the classification criteria and other diseases and body condition as features.
 
 ---
-
+## Stage 0: Data Exploration and Data Preprocessing
 
 
 
