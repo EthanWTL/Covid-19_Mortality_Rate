@@ -1,4 +1,4 @@
-# ICU Needs Classification with COVID-19 Dataset by Decentralized Machine Learning Approach.
+# More Medical Needs Suggestion by Decentralized Machine Learning Approach with COVID-19 Dataset.
 ![Contributors](https://img.shields.io/github/contributors/EthanWTL/HeartDiseasePakula?style=plastic)
 ![Forks](https://img.shields.io/github/forks/EthanWTL/HeartDiseasePakula)
 ![Stars](https://img.shields.io/github/stars/EthanWTL/HeartDiseasePakula)
