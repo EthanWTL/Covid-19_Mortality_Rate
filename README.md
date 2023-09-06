@@ -29,7 +29,7 @@ To create a baseline understanding of the project as well as testing our data cl
 
 | ML Technique  | Acc | Recall |
 | ------------- | ------------- | ----- |
-| Decision Tree  |  |  |
+| Decision Tree  | 70.86% | 55.17% |
 | Random Forest  | |   |
 | SVM |  |   |
 | Bayesian Classifier  |  |   |
