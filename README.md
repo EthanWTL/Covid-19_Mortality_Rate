@@ -30,13 +30,13 @@ To create a baseline understanding of the project as well as testing our data cl
 | ML Technique  | Acc | Recall |
 | ------------- | ------------- | ----- |
 | Decision Tree  | 70.86% | 55.17% |
-| Random Forest  | |   |
-| SVM |  |   |
-| Bayesian Classifier  |  |   |
-| SOM |  |  |
-| DNN | |   | 
+| Random Forest  | 72.77%|  58.99% |
+| SVM | 74.72% |  45.39% |
+| Bayesian Classifier  | 71.69% | 66.82%  |
+| SOM | 61.38% | 19.48% |
+| DNN | 76.22% | 58.61%  | 
 | CNN | | | 
-| RNN |  |  | 
+| RNN | 74.80% |  44.43%| 
 
 
 
