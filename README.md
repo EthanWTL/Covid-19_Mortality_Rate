@@ -35,7 +35,7 @@ To create a baseline understanding of the project as well as testing our data cl
 | Bayesian Classifier  | 71.69% | 66.82%  |
 | SOM | 61.38% | 19.48% |
 | DNN | 76.22% | 58.61%  | 
-| CNN | | | 
+| CNN | 76.01% | 54.26| 
 | RNN | 74.80% |  44.43%| 
 
 
