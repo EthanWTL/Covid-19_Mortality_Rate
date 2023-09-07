@@ -82,7 +82,7 @@ graph TB
   |DNN-FL|75.59%|75.54%|75.96%|75.67%|75.20%|
   |RNN-FL|75.81%|75.83%|76.32%|75.82%|75.25%|
 
-  |Recall on Actual ICU or Dead| Centralized | Shard1 | Shard2 | Shard3 | Shard4 |
+  |Recall On ICU| Centralized | Shard1 | Shard2 | Shard3 | Shard4 |
   |--------|--------|--------|--------|--------|--------|
   |DNN-FL|57.15%|75.31%|75.09%|75.85%|75.43%|
   |CNN-FL|69.70%|65.55%|65.33%|65.00%|64.90%|
