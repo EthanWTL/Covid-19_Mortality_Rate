@@ -22,6 +22,9 @@ We managed to determine who would need more medical treatment among the hospital
 
 3. what we did in between and why.
 
+4. ![ICU data graph](https://github.com/EthanWTL/Covid-19_Mortality_Rate/assets/97998419/99c3db9f-23ff-49fc-ba0e-159173e151cf)
+
+
 
 ## Stage I: Baseline Modeling
 
