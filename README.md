@@ -16,13 +16,7 @@ We managed to determine who would need more medical treatment among the hospital
 ---
 ## Stage 0: Data Exploration and Data Preprocessing
 
-1. Original data features:
-
-2. the feature now:
-
-3. what we did in between and why.
-
-4. ![ICU data graph](https://github.com/EthanWTL/Covid-19_Mortality_Rate/assets/97998419/99c3db9f-23ff-49fc-ba0e-159173e151cf)
+![ICU data graph](https://github.com/EthanWTL/Covid-19_Mortality_Rate/assets/97998419/99c3db9f-23ff-49fc-ba0e-159173e151cf)
 
 
 
