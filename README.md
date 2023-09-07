@@ -35,7 +35,7 @@ To create a baseline understanding of the project as well as testing our data cl
 | Bayesian Classifier  | 71.69% | 66.82%  |
 | SOM | 61.38% | 19.48% |
 | DNN | 76.22% | 58.61%  | 
-| CNN | 76.01% | 54.26| 
+| CNN | 76.01% | 54.26% | 
 | RNN | 74.80% |  44.43%| 
 
 
@@ -78,15 +78,15 @@ graph TB
 
   |Model Accuracy| Centralized  | Shard1 | Shard2 | Shard3 | Shard4 |
   |--------|--------|--------|--------|--------|--------|
-  |DNN-FL||||||
-  |CNN-FL||||||
-  |RNN-FL||||||
+  |CNN-FL|73.20%|73.29%|73.75%|73.08%|72.69%|
+  |DNN-FL|75.59%|75.54%|75.96%|75.67%|75.20%|
+  |RNN-FL|75.81%|75.83%|76.32%|75.82%|75.25%|
 
   |Recall on Actual ICU or Dead| Centralized | Shard1 | Shard2 | Shard3 | Shard4 |
   |--------|--------|--------|--------|--------|--------|
-  |DNN-FL||||||
-  |CNN-FL||||||
-  |RNN-FL||||||
+  |DNN-FL|57.15%|75.31%|75.09%|75.85%|75.43%|
+  |CNN-FL|69.70%|65.55%|65.33%|65.00%|64.90%|
+  |RNN-FL|58.73%|75.18%|74.74%|75.23%|74.47%|
   
 ---
 
