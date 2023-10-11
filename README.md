@@ -1,4 +1,4 @@
-# More Medical Needs Suggestion by Decentralized Machine Learning Approach with COVID-19 Dataset.
+# Decentralized Machine Learning Approach on ICU Admission Prediction for Enhanced Patient Care Using COVID-19 Data
 ![Contributors](https://img.shields.io/github/contributors/EthanWTL/HeartDiseasePakula?style=plastic)
 ![Forks](https://img.shields.io/github/forks/EthanWTL/HeartDiseasePakula)
 ![Stars](https://img.shields.io/github/stars/EthanWTL/HeartDiseasePakula)
